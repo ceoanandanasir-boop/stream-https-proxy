@@ -2,7 +2,7 @@
 const http = require("http");
 
 const PORT = process.env.PORT || 10000;
-const TARGET = "http://178.32.146.184:7292";
+const TARGET = "http://178.32.146.184:7292/stream";
 
 const server = http.createServer((req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
